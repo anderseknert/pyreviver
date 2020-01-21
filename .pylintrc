@@ -15,6 +15,5 @@ max-line-length=120
 
 [LOGGING]
 
-# Need to support Python 3.5 as that's what's currently running in prod
 logging-format-style=old
 logging-modules=logging

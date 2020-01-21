@@ -67,7 +67,7 @@ def start_process(proc_path):
 
     return sub_process
 
-def kill_process():
+def kill_process() -> None:
     global sub_process
     global was_killed
     if sub_process:
