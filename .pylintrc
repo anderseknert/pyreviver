@@ -1,0 +1,20 @@
+[MASTER]
+
+disable=print-statement,
+        missing-module-docstring,
+        missing-function-docstring,
+        global-statement,
+        invalid-name,
+        broad-except,
+        too-many-branches,
+        too-many-statements
+
+[FORMAT]
+
+max-line-length=120
+
+[LOGGING]
+
+# Need to support Python 3.5 as that's what's currently running in prod
+logging-format-style=old
+logging-modules=logging

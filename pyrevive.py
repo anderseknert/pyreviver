@@ -17,7 +17,6 @@ import sys
 import time
 import signal
 import socket
-import smtplib
 import logging
 import traceback
 import subprocess
