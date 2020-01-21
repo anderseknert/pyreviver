@@ -30,7 +30,7 @@ logger = logging.getLogger('watcher')
 log_directory = str(Path.home()) + '/.pyrevive/log/'
 os.makedirs(log_directory, exist_ok=True)
 
-file_log_handler = logging.FileHandler(log_directory + 'watcher.log')
+file_log_handler = logging.FileHandler(log_directory + 'pyrevive.log')
 stderr_log_handler = logging.StreamHandler()
 
 logger.addHandler(stderr_log_handler)
